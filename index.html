@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>64DC</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        header h1{
+            font-family: monospace;
+            color: #0be60b;
+            background-color: #282828;
+            padding: 10px;
+        }
+        header,
+        footer {
+            text-align: center;
+            min-height: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content {
+            max-width: 800px;
+            align-self: center;
+            font-family: sans-serif;
+            padding: 10px;
+        }
+
+
+        span.code {
+            background-color: #282828;
+            padding: 2px 5px;
+            border-radius: 3px;
+            color: #0be60b;
+            font-family: monospace;
+            font-size: 18px;
+        }
+
+        p {
+            line-height: 25px;
+            font-family: sans-serif;
+        }
+
+        .content h2 {
+            margin: 20px 0px;
+        }
+
+        ul li {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>64DC</h1>
+        </header>
+        <hr><br><br>
+        <section class="content">
+            <p> 64DC, is an open-source software building organization, that builds software that most people
+                dont even use, basically its just a junkyard of a nerd, who knows one or two things and lives in a
+                country where he does a minial job, or sometimes does anything for survival.</p>
+            <h2>Some of his work is as following - </h2>
+
+            <ul>
+                <li><a href="https://github.com/64DC/Nirvana">Nirvana</a> — Its a <span
+                        class="code">JavaScript</span> Engine, written in <span class="code">C</span>, and it does the
+                    pretty good job of comiling things</li>
+                <li><a href="https://github.com/64DC/Yan-http-parse">Yan-http-parse</a> — Written in <span class="code">C</span>, a  <span class="code">HTTP</span>
+                    parser, it supports 1.0 - 3.0</li>
+
+                <li><a href="https://github.com/64DC/Yan-http-parse">Yan-server</a> — Written in <span class="code">C</span>, a <span class="code">HTTP</span>
+                    Server, for <span class="code">Linux</span></li>
+            </ul>
+
+        </section>
+        <hr>
+        <footer>
+            <p>&copy; Yan "cokacode" Kaf
+                <br>All projects are licensed under custom open-source license, to read more visit <span class="code">/License</span></p>
+        </footer>
+    </div>
+</body>
+
+</html>
